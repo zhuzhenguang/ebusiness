@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite failures="1" time="0.007" errors="0" skipped="0" tests="1" name="org.propertyinsurance.motor.DozerTest">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Libraries"/>
+    <property name="java.vm.version" value="20.12-b01-434"/>
+    <property name="awt.nativeDoubleBuffering" value="true"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="mrj.build" value="11M3909"/>
+    <property name="java.vm.vendor" value="Apple Inc."/>
+    <property name="java.vendor.url" value="http://www.apple.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="maven.skip.test" value="true"/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/zhu/Development/workspace/ebusiness/utility"/>
+    <property name="java.runtime.version" value="1.6.0_37-b06-434-11M3909"/>
+    <property name="java.awt.graphicsenv" value="apple.awt.CGraphicsEnvironment"/>
+    <property name="basedir" value="/Users/zhu/Development/workspace/ebusiness/utility"/>
+    <property name="java.endorsed.dirs" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="surefire.real.class.path" value="/Users/zhu/Development/workspace/ebusiness/utility/target/surefire/surefirebooter4365976015801810990.jar"/>
+    <property name="java.io.tmpdir" value="/var/folders/hk/hkn8r1qn68v1vvvx8q_8mdt40000gn/T/"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="sun.jnu.encoding" value="EUC_CN"/>
+    <property name="java.library.path" value=".:/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="surefire.test.class.path" value="/Users/zhu/Development/workspace/ebusiness/utility/target/test-classes:/Users/zhu/Development/workspace/ebusiness/utility/target/classes:/Users/zhu/Development/tools/maven-repository/junit/junit/4.11/junit-4.11.jar:/Users/zhu/Development/tools/maven-repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/zhu/Development/tools/maven-repository/org/mockito/mockito-all/1.9.5-rc1/mockito-all-1.9.5-rc1.jar:/Users/zhu/Development/tools/maven-repository/commons-lang/commons-lang/2.5/commons-lang-2.5.jar:/Users/zhu/Development/tools/maven-repository/net/sf/dozer/dozer/5.3.2/dozer-5.3.2.jar:/Users/zhu/Development/tools/maven-repository/commons-beanutils/commons-beanutils/1.8.3/commons-beanutils-1.8.3.jar:/Users/zhu/Development/tools/maven-repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar:/Users/zhu/Development/tools/maven-repository/com/google/guava/guava/13.0/guava-13.0.jar:/Users/zhu/Development/tools/maven-repository/org/slf4j/slf4j-api/1.6.6/slf4j-api-1.6.6.jar:/Users/zhu/Development/tools/maven-repository/org/slf4j/jcl-over-slf4j/1.6.6/jcl-over-slf4j-1.6.6.jar:/Users/zhu/Development/tools/maven-repository/ch/qos/logback/logback-core/1.0.6/logback-core-1.0.6.jar:/Users/zhu/Development/tools/maven-repository/ch/qos/logback/logback-classic/1.0.6/logback-classic-1.0.6.jar:/Users/zhu/Development/tools/maven-repository/com/esotericsoftware/reflectasm/reflectasm/1.07/reflectasm-1.07.jar:/Users/zhu/Development/tools/maven-repository/org/ow2/asm/asm/4.0/asm-4.0.jar:/Users/zhu/Development/tools/maven-repository/com/sinosoft/arch4/4.2.7/arch4-4.2.7.jar:"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="50.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.8.2"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/zhu"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.awt.printerjob" value="apple.awt.CPrinterJob"/>
+    <property name="java.specification.version" value="1.6"/>
+    <property name="file.encoding" value="EUC_CN"/>
+    <property name="user.name" value="zhu"/>
+    <property name="java.class.path" value="/Users/zhu/Development/workspace/ebusiness/utility/target/test-classes:/Users/zhu/Development/workspace/ebusiness/utility/target/classes:/Users/zhu/Development/tools/maven-repository/junit/junit/4.11/junit-4.11.jar:/Users/zhu/Development/tools/maven-repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/zhu/Development/tools/maven-repository/org/mockito/mockito-all/1.9.5-rc1/mockito-all-1.9.5-rc1.jar:/Users/zhu/Development/tools/maven-repository/commons-lang/commons-lang/2.5/commons-lang-2.5.jar:/Users/zhu/Development/tools/maven-repository/net/sf/dozer/dozer/5.3.2/dozer-5.3.2.jar:/Users/zhu/Development/tools/maven-repository/commons-beanutils/commons-beanutils/1.8.3/commons-beanutils-1.8.3.jar:/Users/zhu/Development/tools/maven-repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar:/Users/zhu/Development/tools/maven-repository/com/google/guava/guava/13.0/guava-13.0.jar:/Users/zhu/Development/tools/maven-repository/org/slf4j/slf4j-api/1.6.6/slf4j-api-1.6.6.jar:/Users/zhu/Development/tools/maven-repository/org/slf4j/jcl-over-slf4j/1.6.6/jcl-over-slf4j-1.6.6.jar:/Users/zhu/Development/tools/maven-repository/ch/qos/logback/logback-core/1.0.6/logback-core-1.0.6.jar:/Users/zhu/Development/tools/maven-repository/ch/qos/logback/logback-classic/1.0.6/logback-classic-1.0.6.jar:/Users/zhu/Development/tools/maven-repository/com/esotericsoftware/reflectasm/reflectasm/1.07/reflectasm-1.07.jar:/Users/zhu/Development/tools/maven-repository/org/ow2/asm/asm/4.0/asm-4.0.jar:/Users/zhu/Development/tools/maven-repository/com/sinosoft/arch4/4.2.7/arch4-4.2.7.jar:"/>
+    <property name="java.vm.specification.version" value="1.0"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home"/>
+    <property name="sun.java.command" value="/Users/zhu/Development/workspace/ebusiness/utility/target/surefire/surefirebooter4365976015801810990.jar /Users/zhu/Development/workspace/ebusiness/utility/target/surefire/surefire72567343386212187tmp /Users/zhu/Development/workspace/ebusiness/utility/target/surefire/surefire7542888954798678891tmp"/>
+    <property name="java.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="user.language" value="zh"/>
+    <property name="awt.toolkit" value="apple.awt.CToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.6.0_37"/>
+    <property name="java.ext.dirs" value="/Library/Java/Extensions:/System/Library/Java/Extensions:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext"/>
+    <property name="sun.boot.class.path" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsfd.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar:/System/Library/Frameworks/JavaVM.framework/Frameworks/JavaRuntimeSupport.framework/Resources/Java/JavaRuntimeSupport.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/ui.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/laf.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/sunrsasign.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsse.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jce.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/charsets.jar"/>
+    <property name="java.vendor" value="Apple Inc."/>
+    <property name="localRepository" value="/Users/zhu/Development/tools/maven-repository"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.apple.com/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="mrj.version" value="1070.1.6.0_37-434"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase time="0.005" classname="org.propertyinsurance.motor.DozerTest" name="testDozer">
+    <failure message="expected:&lt;zhuzhu&gt; but was:&lt;null&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;zhuzhu&gt; but was:&lt;null&gt;
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at org.propertyinsurance.motor.DozerTest.testDozer(DozerTest.java:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.apache.maven.surefire.junit4.JUnit4TestSet.execute(JUnit4TestSet.java:35)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:115)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:97)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.maven.surefire.booter.ProviderFactory$ClassLoaderProxy.invoke(ProviderFactory.java:103)
+	at $Proxy0.invoke(Unknown Source)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:150)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcess(SurefireStarter.java:91)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:69)
+</failure>
+    <system-out>@SLTests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 1.064 sec &lt;&lt;&lt; FAILURE!
+@SLRunning org.propertyinsurance.motor.DozerTest
+</system-out>
+  </testcase>
+</testsuite>
