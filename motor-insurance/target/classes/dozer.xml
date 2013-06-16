@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mappings xmlns="http://dozer.sourceforge.net"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://dozer.sourceforge.net
+      http://dozer.sourceforge.net/schema/beanmapping.xsd">
+
+    <mapping map-null="false">
+        <class-a>org.propertyinsurance.motor.domain.business.vehicle.VehicleQuerySpecification</class-a>
+        <class-b>com.sinosoft.ebusiness.thirdparty.prpall.client.model.carquery.CarQueryInputDto</class-b>
+    </mapping>
+
+    <mapping map-null="false">
+        <class-a>org.propertyinsurance.motor.domain.VehicleInfo</class-a>
+        <class-b>com.sinosoft.ebusiness.thirdparty.prpall.client.model.carquery.CarQueryOutputDto</class-b>
+        <field>
+            <a>propertyInfo.vehicleCode</a>
+            <b>vehicleCode</b>
+        </field>
+        <field>
+            <a>propertyInfo.brandName</a>
+            <b>RVehicleName</b>
+        </field>
+        <field>
+            <a>physicalInfo.seatCount</a>
+            <b>ratedPassengerCapacity</b>
+        </field>
+        <field>
+            <a>physicalInfo.tonCount</a>
+            <b>totalVehicleWeight</b>
+        </field>
+        <field>
+            <a>priceInfo.purchasePrice</a>
+            <b>vehiclePrice</b>
+        </field>
+
+        <field>
+            <a>physicalInfo.exhaustScale</a>
+            <b>displacement</b>
+        </field>
+        <field>
+            <a>propertyInfo.frameNo</a>
+            <b>frameNo</b>
+        </field>
+        <field>
+            <a>propertyInfo.engineNo</a>
+            <b>engineNo</b>
+        </field>
+        <field>
+            <a>propertyInfo.enrollDate</a>
+            <b>enrollDate</b>
+        </field>
+        <field>
+            <a>propertyInfo.importCode</a>
+            <b>RImportFlag</b>
+        </field>
+        <field>
+            <a>propertyInfo.detail</a>
+            <b>RVehicleName</b>
+        </field>
+        <field>
+            <a>propertyInfo.riskFlag</a>
+            <b>riskFlag</b>
+        </field>
+    </mapping>
+
+</mappings>
